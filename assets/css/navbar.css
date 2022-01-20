@@ -1,10 +1,14 @@
 #navbar {
-    background: white;
 }
 
 #navbar li {
     text-align: center;
 }
+
+#navbar li a{
+    color:white;
+}
+
 
 #navbar li hr {
     padding: 0px;
