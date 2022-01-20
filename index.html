@@ -10,6 +10,9 @@
         <link rel="stylesheet" href="./assets/css/wrapper.css" >
         <link rel="stylesheet" href="./assets/css/titulo.css" >
         <link rel="stylesheet" href="./assets/css/body.css" >
+        <link rel="stylesheet" href="./assets/css/menu.css" >
+        <link rel="stylesheet" href="./assets/css/card-content.css" >
+        <link rel="stylesheet" href="./assets/css/logo.css" >
 
         <script src="./assets/js/navbar-li-dividers.js"></script>
         
@@ -17,125 +20,85 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     </head>
     <body>
-        <header>
-            <!-- Start: Navigation Clean -->
-            <nav class="navbar navbar-light navbar-expand-lg navigation-clean" id="navbar">
+        <div class="mx-auto" style="max-width: 800px;">
+            <header>
+                <nav class="navbar navbar-light navbar-expand-sm navigation-clean" id="navbar">
+                    <div style="width: 3%;"></div>
+                    <div class="">
+                        <a class="navbar-brand" href="#">
+                            <img src="./logo.png" id="logo"/>
+                        </a>
+                    </div>
+                    <div class="">
+                        <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1">
+                            <span class="visually-hidden">Toggle navigation</span>
+                            <span>Menu&nbsp;&nbsp;</span>
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                    <div style="width: 3%;"></div>
+                    <div class="container" id="menu" style="background-color: white; border-radius: 25px;">
+                        <div class="collapse navbar-collapse mx-4" id="navcol-1">
+                            <div class="container-fluid list-group list-group-flush">
+                                <a href="#" class="list-group-item list-group-item-action text-center">Vida Acadêmica</a>
+                                <a href="#" class="list-group-item list-group-item-action text-center">Saúde</a>
+                                <a href="#" class="list-group-item list-group-item-action text-center">Benefícios</a>
+                                <a href="#" class="list-group-item list-group-item-action text-center">Grupos Cristãos</a>
+                                <a href="#" class="list-group-item list-group-item-action text-center">Transporte</a>
+                                <a href="#" class="list-group-item list-group-item-action text-center">Ferramentas</a>
+                                <a href="#" class="list-group-item list-group-item-action text-center">Moradia</a>
+                                <a href="#" class="list-group-item list-group-item-action text-center">Contatos nos Institutos</a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            <hr />
+            <main id="wrapper" class="container-fluid">
                 <div class="container">
-                    <a class="navbar-brand" href="#">Guia 2021</a>
-                    <button onclick="callNavbarDividers()" data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1">
-                        <span class="visually-hidden">Toggle navigation</span>
-                        <span>Menu&nbsp;&nbsp;</span>
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navcol-1">
-                        <ul class="navbar-nav ms-auto">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Vida Acadêmica<br></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Saúde</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Ferramentas</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Benefícios</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Grupos Cristãos</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Transporte</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Moradia</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Contatos nos Institutos</a>
-                            </li>
-                        </ul>
+                    <div class="row">
+                        <div class="col-6"></div>
+                        <div class="col-6">
+                            <div class="card bg-light border-success" style="border-width: 5px;">
+                                <div class="card-body">
+                                    <h4 class="card-title">Opa</h4>
+                                    <h6 class="text-muted card-subtitle mb-2">Subtitle</h6>
+                                    <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p><a class="card-link" href="#">Link</a><a class="card-link" href="#">Link</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </nav>
-            <!-- End: Navigation Clean -->
-        </header>
-        <header>
-            <nav class="navbar navbar-light navbar-expand-lg navigation-clean" id="navbar2">
-                <div class="container">
-                    <a class="navbar-brand" href="#" style="color:white">Guia 2021</a>
-                    <button onclick="callNavbarDividers()" data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1">
-                        <span class="visually-hidden">Toggle navigation</span>
-                        <span>Menu&nbsp;&nbsp;</span>
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navcol-1">
-                        <ul class="navbar-nav ms-auto">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Vida Acadêmica<br></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Saúde</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Ferramentas</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Benefícios</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Grupos Cristãos</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Transporte</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Moradia</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Contatos nos Institutos</a>
-                            </li>
-                        </ul>
+                    <hr />
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="card bg-light border-success" style="border-width: 5px;">
+                                <div class="card-body">
+                                    <h4 class="card-title">Opa</h4>
+                                    <h6 class="text-muted card-subtitle mb-2">Subtitle</h6>
+                                    <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p><a class="card-link" href="#">Link</a><a class="card-link" href="#">Link</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6"></div>
                     </div>
-                </div>
-            </nav>
-            <!-- End: Navigation Clean -->
-        </header>
-        <main id="wrapper" class="container-fluid">
-            <div class="container">
-                <div>
-                    <h1 id="titulo">
-                        Guia do Bixo
-                    </h1>
-                </div>
-                <div>
-                    <h1 id="titulo" style="font-family:Knewave">
-                        Guia do Bixo
-                    </h1>
-                </div>
-                <div class="card">
-                    <div class="card-body">
-                        <h4 class="card-title"><a href="./pagina.html">Outra pagina</a>></h4>
-                        <h6 class="text-muted card-subtitle mb-2">Subtitle</h6>
-                        <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p><a class="card-link" href="#">Link</a><a class="card-link" href="#">Link</a>
+                    <hr />
+                    <div class="row">
+                        <div class="col-6"></div>
+                        <div class="col-6">
+                            <div class="card bg-light border-success" style="border-width: 5px;">
+                                <div class="card-body">
+                                    <h4 class="card-title">Opa</h4>
+                                    <h6 class="text-muted card-subtitle mb-2">Subtitle</h6>
+                                    <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p><a class="card-link" href="#">Link</a><a class="card-link" href="#">Link</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                    <hr />
                 </div>
-                <hr />
-                <div class="card">
-                    <div class="card-body">
-                        <h4 class="card-title">Title</h4>
-                        <h6 class="text-muted card-subtitle mb-2">Subtitle</h6>
-                        <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p><a class="card-link" href="#">Link</a><a class="card-link" href="#">Link</a>
-                    </div>
-                </div>
-                <hr />
-                <div class="card">
-                    <div class="card-body">
-                        <h4 class="card-title">Title</h4>
-                        <h6 class="text-muted card-subtitle mb-2">Subtitle</h6>
-                        <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p><a class="card-link" href="#">Link</a><a class="card-link" href="#">Link</a>
-                    </div>
-                </div>
-            </div>
-        </main>
+            </main>
+            <footer class="bg-primary">
+            </footer>
+        </div>
     </body>
 </html>
