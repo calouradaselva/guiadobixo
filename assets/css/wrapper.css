@@ -1,0 +1,16 @@
+#wrapper-principal{
+    background-image: url('../img/background.png');
+    background-size: 100% ;
+}
+
+
+#wrapper-header-principal{
+    background-color:  transparent;
+}
+
+#wrapper-main-principal{
+    margin:0px;
+    padding: 0px;
+    max-width: 800px;
+    background-repeat: no-repeat;
+}

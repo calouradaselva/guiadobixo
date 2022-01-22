@@ -1,8 +1,13 @@
-#logo{
+#logo-principal{
     height: 30vw;
     width: 30vw;
     min-height: 100px;
     min-width: 100px;
     max-height: 300px;
     max-width: 300px;
+}
+
+#logo-minimal{
+    height: 50px;
+    width: 50px;
 }
