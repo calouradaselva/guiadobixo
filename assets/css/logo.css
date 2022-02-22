@@ -31,3 +31,12 @@
     max-width: 300px;
     border-radius: 10px;
 }
+
+.logo-social{
+    height: 5vw;
+    width: 5vw;
+    min-height: 30px;
+    min-width: 30px;
+    max-height: 40px;
+    max-width: 40px;
+}
