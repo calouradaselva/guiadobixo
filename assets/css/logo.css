@@ -7,6 +7,24 @@
     max-width: 300px;
 }
 
+#logo-calourada{
+    height: 15vw;
+    width: 30vw;
+    min-height: 50px;
+    min-width: 100px;
+    max-height: 150px;
+    max-width: 300px;
+}
+
+#logo-unicamp{
+    height: 17vw;
+    width: 17vw;
+    min-height: 100px;
+    min-width: 100px;
+    max-height: 200px;
+    max-width: 200px;
+}
+
 #logo-minimal{
     height: 50px;
     width: 50px;
