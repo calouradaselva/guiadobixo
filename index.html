@@ -14,28 +14,26 @@
         <link rel="stylesheet" href="./assets/css/card-content.css" >
         <link rel="stylesheet" href="./assets/css/logo.css" >
         <link rel="stylesheet" href="./assets/css/mapa.css" >
+        <link rel="stylesheet" href="./assets/css/geral.css" >
         
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     </head>
     <body>
         <div id="wrapper-principal">
-            <header id="wrapper-header-principal">
-                <nav id="navbar-principal" class="navbar navbar-light navbar-expand-sm navigation-clean mx-auto px-4">
+            <header id="wrapper-header">
+                <nav id="navbar" class="navbar navbar-light navigation-clean mx-auto">
                     <div class="navbar-margin"></div>
-                    <div>    
-                        <a class="navbar-brand" href="#">
-                            <img src="./assets/img/logo.png" id="logo-principal"/> <br />
-                        </a>
-                    </div>
-                    <button data-bs-toggle="collapse" class="navbar-toggler bg-white" data-bs-target="#menu">
+                    <a class="navbar-brand" href="../index.html">
+                        <img src="./assets/img/logo.png" id="logo-minimal"/>
+                    </a>
+                    <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#menu">
                         <span class="visually-hidden">Toggle navigation</span>
                         <span>Menu&nbsp;&nbsp;</span>
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="navbar-margin"></div>
-                    <div id="menu" class="collapse navbar-collapse list-group list-group-flush">
-                        <div class="list-group-item text-center border border-0"><div class="fw-bold">Menu</div></div>
+                    <div id="menu" class="collapse navbar-collapse list-group list-group-flush mb-2">
                         <a href="./content/vida-academica.html" class="list-group-item list-group-item-action text-center">Vida Acadêmica</a>
                         <a href="./content/saude.html" class="list-group-item list-group-item-action text-center">Saúde</a>
                         <a href="./content/alimentacao.html" class="list-group-item list-group-item-action text-center">Alimentação</a>
@@ -46,25 +44,31 @@
                         <a href="./content/gruposcristaos.html" class="list-group-item list-group-item-action text-center">Grupos Cristãos</a>
                         <a href="./content/contatosinstitutos.html" class="list-group-item list-group-item-action text-center">Contatos nos Institutos</a>
                     </div>
-                    <div class="navbar-margin"></div>
                 </nav>
             </header>
             <main id="wrapper-main-principal" class="mx-auto">
+                <div class="container text-center p-5">
+                    <table style="width: 100%;">
+                        <tr>
+                            <td>
+                                <img src="./assets/img/logo-2023.png" id="logo-principal"/> <br />
+                            </td>
+                            <td>
+                                <img class="mx-2" src="./assets/img/logouincamp.svg" id="logo-unicamp"/>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
                 <div class="container-fluid">
-                    <hr /> 
                     <div id="row1" class="row m-0 p-0">
-                        <div class="d-flex justify-content-center d-flex align-items-center">
-                            <img class="mx-2" src="./assets/img/calouradavlogo.jpeg" id="logo-calourada"/>
-                            <img class="mx-2" src="./assets/img/logouincamp.svg" id="logo-unicamp"/>
-                        </div>
-                        <div class="my-2"></div>
                         <hr/>
                         <div class="col my-0 mx-5 p-0">
                             <div id="card1" class="card text-black bg-transparent border-success card-content">
                                 <div class="card-body px-0">
-                                    <div class="d-flex justify-content-center"><h2>Bem Vindo!</h2></div>
+                                    <h2 class="card-title fw-bolder fs-2">Bem vindo!</h2>
                                     <h6 class="card-subtitle mb-2"></h6>
-                                    <p class="card-text text-center">
+                                    <h6 class="card-subtitle mb-2"></h6>
+                                    <p class="card-text text-left">
                                         Parabéns bixo e bixete da UNICAMP! Sabemos que nos últimos
                                         tempos você esteve pensando no vestibular, mas agora você
                                         PASSOU e pode celebrar sua nova fase: a UNIVERSIDADE! Nós, a Calourada Selva, preparamos este guia de sobrevivência para ajudá-lo a se
@@ -73,11 +77,12 @@
                                         necessidades iniciais. Aproveite, estude, corra atrás dos seus
                                         objetivos divirta-se! Além do guia, tem mais conteúdo em nossas redes sociais.
                                     </p>
+
                                 </div>
                                 <div class="d-flex justify-content-center">
                                     <a href="https://www.facebook.com/calouradaselva">
                                         <img class="logo-social mx-3"  src="https://logodownload.org/wp-content/uploads/2014/09/facebook-logo-1-2.png" alt="instagram-logo" />
-                                    </a>
+                                    </a> 
                                     <a href="https://www.instagram.com/calouradaselva/">
                                         <img class="logo-social mx-3"  src="https://logodownload.org/wp-content/uploads/2017/04/instagram-logo-16.png" alt="instagram-logo" />
                                     </a>
@@ -93,7 +98,8 @@
                         <div class="col my-0 mx-5 p-0">
                             <div id="card2" class="card text-black bg-transparent border-success card-content">
                                 <div class="card-body px-0">
-                                    <h2 class="card-title">Calendário</h2>
+
+                                    <h2 class="card-title fw-bolder fs-2">Calendário</h2>
                                     <h6 class="card-subtitle mb-2"></h6>
                                     <p>
                                         Há tempo para tudo debaixo do Sol, por isso não perca os prazos! Sempre dê uma olhada no calendário oficial da DAC, neste <a href="https://www.dac.unicamp.br/portal/calendario/2022/graduacao">link</a>. E também no calendário do SAE, neste <a href="https://www.sae.unicamp.br/servicosocial/calendario">link</a>. Abaixo tem o calendário de eventos da Calourada Selva, mais detalhes em nosso instagram!
@@ -101,70 +107,82 @@
                                     <div class="container p-0 m-0">
                                         <ul class="list-group">
                                             <li class="list-group-item">
-                                                <span class="fs-4 fw-bold">Março</span> 
                                                 <ul class="list-group list-group-flush">
                                                     <li class="align-items-center list-group-item">
                                                         <div class="row align-items-center">
-                                                            <div class="col-sm-2 p-0 m-0 text-center">
+                                                            <div class="col-sm-3 p-0 m-0 text-center">
                                                                 <span class="px-2 fs-3 fw-bold bg-success rounded-pill" style="color:white">
-                                                                    16
+                                                                    07/03
                                                                 </span>
                                                             </div>
-                                                            <div class="col-sm-10">
-                                                                <span class="fs-6">Feira dos Bixos - Distribuição de Itens Domésticos</span><br />
-                                                                <span class="p-0 m-0 fw-bold">Horário: 10h às 17hrs / Local: Mesas do CB (Marco Zero) </span>
-                                                            </div>
-                                                        </div>
-                                                    </li>
-                                                    <li class="align-items-center list-group-item">
-                                                        <div class="row align-items-center">
-                                                            <div class="col-sm-2 p-0 m-0 text-center">
-                                                                <span class="px-2 fs-3 fw-bold bg-success rounded-pill" style="color:white">
-                                                                    18
-                                                                </span>
-                                                            </div>
-                                                            <div class="col-sm-10">
-                                                                <span class="fs-6">Conhecendo a Selva</span><br />
-                                                                <span class="p-0 m-0 fw-bold">Horário: 17hrs / Local: Praça do CB </span>
-                                                            </div>
-                                                        </div>
-                                                    </li>
-                                                    <li class="align-items-center list-group-item">
-                                                        <div class="row align-items-center">
-                                                            <div class="col-sm-2 p-0 m-0 text-center">
-                                                                <span class="px-2 fs-3 fw-bold bg-success rounded-pill" style="color:white">
-                                                                    21
-                                                                </span>
-                                                            </div>
-                                                            <div class="col-sm-10">
-                                                                <span class="fs-6">Piquenique e Tira Dúvidas</span><br />
-                                                                <span class="p-0 m-0 fw-bold">Horário: 17hrs / Local: Praça da Paz </span>
-                                                            </div>
-                                                        </div>
-                                                    </li>
-                                                    <li class="align-items-center list-group-item">
-                                                        <div class="row align-items-center">
-                                                            <div class="col-sm-2 p-0 m-0 text-center">
-                                                                <span class="px-2 fs-3 fw-bold bg-success rounded-pill" style="color:white">
-                                                                    25
-                                                                </span>
-                                                            </div>
-                                                            <div class="col-sm-10">
-                                                                <span class="fs-6">Noite de Jogos</span><br />
+                                                            <div class="col-sm-9">
+                                                                <span class="fs-6">Festa do Sorvete</span><br />
                                                                 <span class="p-0 m-0 fw-bold">Horário: 19hrs / Local: IPBG</span>
                                                             </div>
                                                         </div>
                                                     </li>
                                                     <li class="align-items-center list-group-item">
                                                         <div class="row align-items-center">
-                                                            <div class="col-sm-2 p-0 m-0 text-center">
+                                                            <div class="col-sm-3 p-0 m-0 text-center">
                                                                 <span class="px-2 fs-3 fw-bold bg-success rounded-pill" style="color:white">
-                                                                    29
+                                                                    09/03
                                                                 </span>
                                                             </div>
-                                                            <div class="col-sm-10">
+                                                            <div class="col-sm-9">
+                                                                <span class="fs-6">Karaokê</span><br />
+                                                                <span class="p-0 m-0 fw-bold">Horário: 19hrs / Local: CEU </span>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="align-items-center list-group-item">
+                                                        <div class="row align-items-center">
+                                                            <div class="col-sm-3 p-0 m-0 text-center">
+                                                                <span class="px-2 fs-3 fw-bold bg-success rounded-pill" style="color:white">
+                                                                    15/03
+                                                                </span>
+                                                            </div>
+                                                            <div class="col-sm-9">
+                                                                <span class="fs-6">Feira dos Bixos - Distribuição de Itens Domésticos</span><br />
+                                                                <span class="p-0 m-0 fw-bold">Horário: 8h às 18hrs / Local: Mesas do CB</span>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="align-items-center list-group-item">
+                                                        <div class="row align-items-center">
+                                                            <div class="col-sm-3 p-0 m-0 text-center">
+                                                                <span class="px-2 fs-3 fw-bold bg-success rounded-pill" style="color:white">
+                                                                    16/03
+                                                                </span>
+                                                            </div>
+                                                            <div class="col-sm-9">
+                                                                <span class="fs-6">Noite de jogos</span><br />
+                                                                <span class="p-0 m-0 fw-bold">Horário: 19hrs / Local: ABBA Casa</span>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="align-items-center list-group-item">
+                                                        <div class="row align-items-center">
+                                                            <div class="col-sm-3 p-0 m-0 text-center">
+                                                                <span class="px-2 fs-3 fw-bold bg-success rounded-pill" style="color:white">
+                                                                    22/03
+                                                                </span>
+                                                            </div>
+                                                            <div class="col-sm-9">
                                                                 <span class="fs-6">Noite do cinema</span><br />
                                                                 <span class="p-0 m-0 fw-bold">Horário: 19hrs / Local: Chácara Barão </span>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="align-items-center list-group-item">
+                                                        <div class="row align-items-center">
+                                                            <div class="col-sm-3 p-0 m-0 text-center">
+                                                                <span class="px-2 fs-3 fw-bold bg-success rounded-pill" style="color:white">
+                                                                    30/03
+                                                                </span>
+                                                            </div>
+                                                            <div class="col-sm-9">
+                                                                <span class="fs-6">Noite do cinema</span><br />
+                                                                <span class="p-0 m-0 fw-bold">Horário: --hrs / Local: Chácara Barão </span>
                                                             </div>
                                                         </div>
                                                     </li>

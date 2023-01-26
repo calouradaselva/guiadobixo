@@ -1,5 +1,8 @@
 body {
-    background: #FFBD59 ;
-    /*background: linear-gradient(0deg, #990000 0%, #FFBD59 100%);*/
-    /*background: linear-gradient(0deg, #2fa15f 0%, #00be10 100%);*/
+    /*background: #243b35 ;*/
+    /*background: #3c976e ; */
+    /*background: linear-gradient(0deg, #3c976e 50%, #f6f7f1 100%);*/
+    /*background: #f6f7f1*/
+    background: #eff2a8;
+    font-family: 'poppins';
 }
