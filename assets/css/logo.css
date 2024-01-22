@@ -1,9 +1,9 @@
 #logo-principal{
-    height: 20vw;
+    height: 40vw;
     width: 45vw;
-    min-height: 50px;
+    min-height: 70px;
     min-width: 90px;
-    max-height: 200px;
+    max-height: 350px;
     max-width: 450px;
 }
 
