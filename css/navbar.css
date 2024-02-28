@@ -1,0 +1,37 @@
+#navbar-principal {
+    max-width: 800px;
+}
+
+#navbar-principal li {
+    text-align: center;
+}
+
+#navbar-principal li a{
+    color:white;
+}
+
+
+#navbar-principal li hr {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+#navbar {
+    background-color: white;
+    max-width: 900px;
+    border-radius: 0px 0px 50px 50px;
+}
+
+#navbar li {
+    text-align: center;
+}
+
+#navbar li a{
+    color:white;
+}
+
+#navbar li hr {
+    padding: 0px;
+    margin: 0px;
+}
